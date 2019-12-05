@@ -1,3 +1,3 @@
 ## Coffee Shop Project
 
-[Live Demo]()
+[Live Demo](https://michaelgreco7.github.io/Coffee-Shop/)
