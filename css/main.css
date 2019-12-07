@@ -1,9 +1,38 @@
+/* All colors listed here 
+   var(color) to call */
+:root {
+  --brightYellow: #e3b505;
+  --darkBrown: #bb9457;
+  --yellow: #f2b450;
+  --brown: #382923;
+  --black: #191919;
+  --grey: #a9b2ac;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* linear-gradient to make background transparent */
 body {
-  font-family: La Belle Aurore, sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(
+      rgba(225, 225, 225, 0.85) rgba(225, 225, 225, 0.85)
+    ),
+    url("../img/bodyBcg.jpeg");
+  color: var(--black);
+}
+
+/* Global Styles */
+.bell-fonts {
+  font-family: "La Belle Aurore", cursive;
+}
+/* End of Global Styles */
+
+/* Header */
+
+.header {
+  height: 100vh;
 }
